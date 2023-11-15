@@ -3,68 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iSi1+eaT8hLg5omQxuWEPv8PBOuL5TA+dt/6EdCZQKxRRZ5Kt2DO5ob6j" crossorigin="anonymous">
 
     
     <title>Evaluacion Practica</title>
     <style>
-        body {
-            padding-top: 56px; /* Ajusta el espacio para la barra de navegación fija */
-        }
+        * {
+    margin: 0;
+    padding: 0;
+}
 
-        .navbar {
-            background-color: #007BFF;
-            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-        }
+aside {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+}
 
-        .navbar-brand, .nav-link {
-            color: #FFFFFF;
-        }
+aside ul li {
+    color: rgb(230, 230, 230, .9);
+    text-align: center;
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+}
 
-        .navbar-brand:hover, .nav-link:hover {
-            color: #FFFFFF;
-            text-decoration: underline;
-        }
+a {
+    text-decoration: none;
+}
 
-        .navbar-toggler-icon {
-            background-color: #FFFFFF;
-        }
+#Content {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    width: 1336px;
+    height: 716px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        .navbar-toggler {
-            border-color: #FFFFFF;
-        }
+
+}
+#Content1{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    width: 1336px;
+    height: 716px;
+    text-align: center;
+}
+#Content1 h1{
+    padding: 23px;
+}
+
+#Content h1 {
+    padding: 10px;
+}
+
+.Datos {
+    background-color: white;
+    width: 600px;
+    height: 190px;
+}
+
+.Datos p {
+    text-align: justify;
+}
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Méritos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <aside>
+        <ul>
+            <a href="#">
+                <li>Inicio</li>
+            </a>
+            <a href="#">
+                <li>Educacion</li>
+            </a>
+            <a>
+                <li>Experiencia </li>
+            </a>
+            <a>
+                <li>Meritos</li>
+            </a>
+            <a>
+                <li>Contacto</li>
+            </a>
 
-    <section>
-        <h1>Josue Sebastian </h1>
+        </ul>
+    </aside>
+
+    <section  id="Content1">
         <h1>Moreira Sarcos</h1>
+        <h1>Josue Sebastian </h1>
+
+        <p> Mi nombre es Josue Moreira, tengo 19 años y ahora ando haciendo una evaluacion practica, me gusta los videjoeugos entre otras cosas</p>
+        
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-eZvLBlYUq8w+rdFb8L0O/BFQ3b5dD1VoNJ98h6TjIu6N+8q+4Zfmc1+oPJmCNo6" crossorigin="anonymous"></script>
 
